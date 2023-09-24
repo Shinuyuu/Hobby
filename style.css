@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Shrikhand&family=Spicy+Rice&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#hobby{
+    font-size: 70px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    font-family: 'Spicy Rice', Arial, Helvetica, sans-serif;
+    color: rgb(255, 196, 4);
+    background-image: url(makima\ banner.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%
+
+
+}
+#hobby h2{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgba(255, 209, 84, 0.918);
+    margin-left: -10px;
+    margin-top: -30px;
+}
+
+#hobby a{
+    text-decoration: none;
+    color: rgba(255, 209, 84, 0.918);
+    font-size: 35px;
+}
+#hobby h2:hover, #hobby a:hover{
+    color: rgb(204, 60, 2);
+}
+#caixagrande{
+    height: 350px;
+}
+#caixagrande h1{
+    border: 2.5px solid  rgb(175, 122, 72);
+    border-radius: 10px;
+    margin: 100px;
+    padding: 20px;
+    font-family: 'Shrikhand', sans-serif;
+    text-align: center;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/039/326/836/large/domwed-img-20210706-123104.jpg?1625585669);
+  
+}
+
+
+#container{
+    display: flex;
+    margin: 70px;
+}
+
+.caixa{
+    border: 2.5px solid  rgb(49, 94, 218);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Patrick Hand', sans-serif;
+}
+.caixa h1{
+    text-align: center;
+    font-size: 46px;
+}
+footer{
+    background-image: url(makima.png);
+    height: 150px;
+    background-repeat: no-repeat;
+    font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
+    color: wheat;
+    text-align: end;
+}

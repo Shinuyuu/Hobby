@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Shrikhand&family=Spicy+Rice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Spicy+Rice&display=swap');
+
+#imagensAssistir{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+#imagensAssistir img{
+    height: 280px;
+    width: 100%;
+}
+
+.caixa{
+    border: 2.5px solid  rgb(175, 122, 72);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Shrikhand', sans-serif;
+    text-align: center;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/039/326/836/large/domwed-img-20210706-123104.jpg?1625585669);
+}
+.caixa h1{
+    font-size: 60px;
+    color: rgb(95, 0, 16);
+    margin: 0;
+}
+h1 a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(221, 189, 129);
+    font-size: 35px;
+    font-family: 'Berkshire Swash', Arial, Helvetica, sans-serif;
+}
+
+#textoDois{
+    display: flex;
+    justify-content: space-between;
+}
+h1 a:hover{
+    color:  rgb(175, 122, 72);;
+}
+
